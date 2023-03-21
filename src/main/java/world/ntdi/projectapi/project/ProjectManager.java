@@ -24,6 +24,10 @@ public class ProjectManager {
         new RemovePlayerBlocks();
         new GLib();
         new BlogSveltekit();
+        new CustomYamlAPI();
+        new SimpleMessaging();
+        new TheBible();
+        new Gunlib();
     }
 
 
