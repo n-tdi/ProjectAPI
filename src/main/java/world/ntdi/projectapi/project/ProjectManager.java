@@ -36,6 +36,10 @@ public class ProjectManager {
         new DamageIndicators();
         new Npctdi();
         new NumberToRomanNumerals();
+        new RegList();
+        new Schedule();
+        new PythonToolTemplate();
+        new Qalc();
     }
 
 
