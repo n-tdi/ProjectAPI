@@ -40,6 +40,9 @@ public class ProjectManager {
         new Schedule();
         new PythonToolTemplate();
         new Qalc();
+        new MathAPI();
+        new MathC();
+        new SkyblockSniperWebhook();
     }
 
 
