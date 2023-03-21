@@ -7,7 +7,6 @@ import world.ntdi.projectapi.model.SubSection;
 
 import java.util.List;
 
-@AllArgsConstructor
 @Data
 public class Project {
     private final int id;
@@ -16,4 +15,15 @@ public class Project {
     private final List<SubSection> sections;
     private final List<String> features;
     private final Preview preview;
+
+    public Project(int id, String title, String description, List<SubSection> sections, List<String> features, Preview preview) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.sections = sections;
+        this.features = features;
+        this.preview = preview;
+
+        ProjectManager.put(id, this);
+    }
 }
