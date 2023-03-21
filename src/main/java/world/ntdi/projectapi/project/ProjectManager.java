@@ -23,6 +23,7 @@ public class ProjectManager {
         put(Projects.NTREAK, new Ntreak());
         put(Projects.RENDERER3, new Renderer3());
         put(Projects.RPB, new RemovePlayerBlocks());
+        put(Projects.GLIB, new GLib());
     }
 
     public Project getProjectFromId(int id) {
@@ -57,7 +58,8 @@ public class ProjectManager {
         NTREAK(3),
         RENDERER3(4),
         SUDOKUSOLVER(5),
-        RPB(6);
+        RPB(6),
+        GLIB(7);
 
         @Getter
         private final int id;
