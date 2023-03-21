@@ -18,6 +18,7 @@ public class ProjectManager {
     static {
         new Planium();
         new DaemonScripts();
+        new Tia();
         new Ntreak();
         new Renderer3();
         new SudokuSolver();
@@ -44,7 +45,6 @@ public class ProjectManager {
         new MathC();
         new SkyblockSniperWebhook();
     }
-
 
     public Project getProjectFromId(int id) {
         return (projects.get(id) == null ? null : projects.get(id));
