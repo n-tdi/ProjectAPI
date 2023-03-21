@@ -30,6 +30,12 @@ public class ProjectManager {
         new Gunlib();
         new Fache();
         new ToneModeration();
+        new LDSync();
+        new TdiPolls();
+        new TicTacToeAI();
+        new DamageIndicators();
+        new Npctdi();
+        new NumberToRomanNumerals();
     }
 
 
