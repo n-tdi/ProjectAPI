@@ -28,6 +28,8 @@ public class ProjectManager {
         new SimpleMessaging();
         new TheBible();
         new Gunlib();
+        new Fache();
+        new ToneModeration();
     }
 
 
