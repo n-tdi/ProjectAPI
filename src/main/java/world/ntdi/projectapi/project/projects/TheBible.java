@@ -14,6 +14,6 @@ public class TheBible extends Project {
                 ),
                 List.of(
                         "Religious?"
-                ), new Preview("The Bible", "A minecraft plugin to get the bible in minecraft.", "https://github.com/n-tdi/The-bible"));
+                ), "https://github.com/n-tdi/The-bible");
     }
 }

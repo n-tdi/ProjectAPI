@@ -16,6 +16,6 @@ public class TdiPolls extends Project {
                         "Pure Svelte",
                         "Animations",
                         "Open Source"
-                ), new Preview("Tdi Polls", "A website where you can vote on topics made in pure Svelte", "https://github.com/n-tdi/tdi-polls"));
+                ), "https://github.com/n-tdi/tdi-polls");
     }
 }

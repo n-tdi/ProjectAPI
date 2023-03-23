@@ -19,7 +19,6 @@ public class Ntreak extends Project {
                         "Fully customizable",
                         "FOSS",
                         "Paid resource"
-                ),
-                new Preview("Ntreak", "Ntreak is a kill-streak plugin for Dupespree", "https://github.com/n-tdi/Ntreak"));
+                ),"https://github.com/n-tdi/Ntreak");
     }
 }

@@ -18,6 +18,6 @@ public class Fache extends Project {
                         "User authentication",
                         "Drag-and-Drop file uploads"
                 ),
-                new Preview("Fache", "A Dropbox clone made in Sveltekit, Fache uses Firebase to handle authentication and file storage.", "https://github.com/n-tdi/Fache"));
+                "https://github.com/n-tdi/Fache");
     }
 }

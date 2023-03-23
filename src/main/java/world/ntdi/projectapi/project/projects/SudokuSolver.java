@@ -17,7 +17,6 @@ public class SudokuSolver extends Project {
                         "Pure C",
                         "Performance optimized",
                         "CMake"
-                ),
-                new Preview("Sudoku Solver", "A hard-coded Sudoku solver written in C.", "https://github.com/n-tdi/SudokuSolver"));
+                ),"https://github.com/n-tdi/SudokuSolver");
     }
 }

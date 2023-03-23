@@ -16,6 +16,6 @@ public class RegList extends Project {
                         "Lightweight",
                         "Preformance optimized",
                         "Easy to use"
-                ), new Preview("Reglist", "Never register you listeners again!", "https://github.com/n-tdi/RegList"));
+                ), "https://github.com/n-tdi/RegList");
     }
 }

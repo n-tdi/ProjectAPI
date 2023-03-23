@@ -16,6 +16,6 @@ public class NumberToRomanNumerals extends Project {
                         "Pure Rust",
                         "Open Source",
                         "Light Weight"
-                ), new Preview("Number to Roman Numerals", "Written in pure Rust, Number to Roman Numerals is a Cargo library to convert numbers into their Roman Numeral equivalent", "https://github.com/n-tdi/Number-to-Roman-Numerals"));
+                ), "https://github.com/n-tdi/Number-to-Roman-Numerals");
     }
 }

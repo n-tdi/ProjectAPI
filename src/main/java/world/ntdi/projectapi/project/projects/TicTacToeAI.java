@@ -16,6 +16,6 @@ public class TicTacToeAI extends Project {
                         "Pure Java",
                         "Game",
                         "AI Powered"
-                ), new Preview("TicTacToe AI", "Do you have no friends? Then this is perfect for you. Play Tic Tac Toe in Java against an AI.", "https://github.com/n-tdi/tic-tac-toe"));
+                ),"https://github.com/n-tdi/tic-tac-toe");
     }
 }

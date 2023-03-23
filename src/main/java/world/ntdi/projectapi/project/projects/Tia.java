@@ -18,6 +18,6 @@ public class Tia extends Project {
                         "PUG",
                         "SCSS",
                         "Cat"
-                ), new Preview("Tia", "In honor of my cat who recently passed away, I created a RESTful API to retrieve a random picture of her.", "https://github.com/Ntdi-World/Tia"));
+                ),"https://github.com/Ntdi-World/Tia");
     }
 }

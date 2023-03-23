@@ -16,7 +16,6 @@ public class ToneModeration extends Project {
                         "Configurable",
                         "AI powered",
                         "Easy to use"
-                ),
-                new Preview("Tone Moderation", "An AI powered discord bot made in Python to understand the tone of a message.", "https://github.com/n-tdi/Tone-Moderation"));
+                ),"https://github.com/n-tdi/Tone-Moderation");
     }
 }

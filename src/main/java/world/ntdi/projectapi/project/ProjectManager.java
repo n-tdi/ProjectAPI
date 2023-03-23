@@ -13,7 +13,7 @@ import java.util.*;
 @Data
 public class ProjectManager {
     @Getter
-    private Map<Integer, Project> projects = new LinkedHashMap<>();
+    private LinkedHashMap<Integer, Project> projects = new LinkedHashMap<>();
 
     static {
         new Planium();
@@ -55,8 +55,8 @@ public class ProjectManager {
         return new LinkedList<>(getProjects().values());
     }
 
-    public List<Preview> getAllPreviews() {
-        List<Preview> previews = new LinkedList<>();
+    public LinkedList<Preview> getAllPreviews() {
+        LinkedList<Preview> previews = new LinkedList<>();
         for (Project project : getProjects().values()) {
             previews.add(project.getPreview());
         }

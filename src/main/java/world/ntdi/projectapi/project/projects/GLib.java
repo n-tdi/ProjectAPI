@@ -16,6 +16,6 @@ public class GLib extends Project {
                         "Fully documented",
                         "Easy and hastle free unlike vanilla guis",
                         "More responsive controller with less boiler plate"
-                ), new Preview("GuiLib", "A library for making powerful and customizable GUIs for minecraft in Java", "https://github.com/n-tdi/GLib"));
+                ), "https://github.com/n-tdi/GLib");
     }
 }

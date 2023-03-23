@@ -17,6 +17,6 @@ public class CustomYamlAPI extends Project {
                         "Easy to use and understand",
                         "Configurable",
                         "Wikis and Docs"
-                ), new Preview("Custom Yaml API", "A Framework for making custom YAML files for Spigot plugins", "https://github.com/n-tdi/Custom-Yaml-Api"));
+                ), "https://github.com/n-tdi/Custom-Yaml-Api");
     }
 }

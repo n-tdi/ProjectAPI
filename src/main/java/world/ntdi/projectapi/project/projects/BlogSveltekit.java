@@ -18,6 +18,6 @@ public class BlogSveltekit extends Project {
                         "Conversion of MD to HTML",
                         "Sorting based on Blog Attributes"
                 ),
-                new Preview("Blog SvelteKit", "A MarkDown based blog site made in SvelteKit", "https://github.com/n-tdi/blog-sveltekit"));
+                "https://github.com/n-tdi/blog-sveltekit");
     }
 }

@@ -17,6 +17,6 @@ public class MathC extends Project {
                         "Ready to use",
                         "Wikis and Documentation",
                         "Highly configurable"
-                ), new Preview("MathC", "Engage your players with fun and engaging math questions in chat!", "https://github.com/n-tdi/MathC"));
+                ), "https://github.com/n-tdi/MathC");
     }
 }

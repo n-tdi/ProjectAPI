@@ -16,6 +16,6 @@ public class Npctdi extends Project {
                         "NMS",
                         "Fake player",
                         "Highly preformat unlike other plugins"
-                ), new Preview("Npctdi", "Create custom NPCs with Npctdi.", "https://github.com/n-tdi/Npctdi"));
+                ), "https://github.com/n-tdi/Npctdi");
     }
 }

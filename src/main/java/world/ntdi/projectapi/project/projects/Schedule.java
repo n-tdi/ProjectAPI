@@ -15,6 +15,6 @@ public class Schedule extends Project {
                 List.of(
                         "Python",
                         "CLI"
-                ), new Preview("Schedule", "A python program to view my school schedule in a pretty way.", "https://github.com/n-tdi/Schedule"));
+                ), "https://github.com/n-tdi/Schedule");
     }
 }

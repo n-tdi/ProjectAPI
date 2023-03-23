@@ -19,9 +19,6 @@ public class RemovePlayerBlocks extends Project {
                         "Over 100 SpigotMC downloads",
                         "Optimized for the end user",
                         "Easy to use for all server owners"
-                ),
-                new Preview("Remove Player Placed Blocks",
-                        "Have a duel arena where people can place blocks but want to unclog it after x minutes?",
-                        "https://github.com/n-tdi/RemovePlayerBlocks"));
+                ), "https://github.com/n-tdi/RemovePlayerBlocks");
     }
 }

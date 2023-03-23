@@ -7,6 +7,7 @@ import world.ntdi.projectapi.model.Preview;
 import world.ntdi.projectapi.project.Project;
 import world.ntdi.projectapi.project.ProjectManager;
 
+import java.util.LinkedList;
 import java.util.List;
 
 @CrossOrigin(origins = "http://127.0.0.1:5173")
@@ -19,7 +20,7 @@ public class ProjectController {
     }
 
     @GetMapping("/project/{id}")
-    public ResponseEntity<Project> getProject(@PathVariable int id) {
+    public ResponseEntity<Project> getProject(@PathVariable Integer id) {
         Project project = ProjectManager.getProjectFromId(id);
         if (project == null) return ResponseEntity.notFound().build();
 
@@ -27,7 +28,7 @@ public class ProjectController {
     }
 
     @GetMapping("/preview")
-    public List<Preview> getAllPreviews() {
+    public LinkedList<Preview> getAllPreviews() {
         return ProjectManager.getAllPreviews();
     }
 }

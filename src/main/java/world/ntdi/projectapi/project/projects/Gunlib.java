@@ -17,6 +17,6 @@ public class Gunlib extends Project {
                         "Abstract API",
                         "Open Source",
                         "Powerful customization"
-                ), new Preview("Gunlib", "An abstract Java library for creating custom guns in minecraft.", "https://github.com/n-tdi/Gunlib"));
+                ), "https://github.com/n-tdi/Gunlib");
     }
 }

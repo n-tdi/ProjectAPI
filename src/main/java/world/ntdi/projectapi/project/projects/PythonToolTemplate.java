@@ -15,6 +15,6 @@ public class PythonToolTemplate extends Project {
                 List.of(
                         "Template",
                         "Easy to use"
-                ), new Preview("Python Tool Template", "A Github Template for creating python macros that look edgy.", "https://github.com/n-tdi/PythonToolTemplate"));
+                ), "https://github.com/n-tdi/PythonToolTemplate");
     }
 }

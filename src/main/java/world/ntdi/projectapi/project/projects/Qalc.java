@@ -16,6 +16,6 @@ public class Qalc extends Project {
                         "User friendly",
                         "Quick",
                         "Powerful"
-                ), new Preview("Qalc", "A discord bot written in JDA to do mathematical expressions", "https://github.com/n-tdi/Qalc"));
+                ), "https://github.com/n-tdi/Qalc");
     }
 }

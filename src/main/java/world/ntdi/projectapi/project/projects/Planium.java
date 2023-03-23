@@ -28,9 +28,6 @@ public class Planium extends Project {
                                 "That's cool and all, until you need to save it on a file system, so I discovered Base58 which basically just takes all of that out of Base64! Base58 is also used to store crypto addresses like bitcoin or eth, so it fit pretty well!")
                 ),
                 List.of("Object Orientated", "Least-Frequently-Used Cache Invalidation", "AWT Image Buffering", "Base58Check Encryption"),
-                new Preview("Planium",
-                        "Planium is an open source API to generate text onto images made fully in Java!",
-                        "https://github.com/Ntdi-World/planium"
-                        ));
+                "https://github.com/Ntdi-World/planium");
     }
 }

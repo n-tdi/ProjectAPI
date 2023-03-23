@@ -16,6 +16,6 @@ public class DamageIndicators extends Project {
                         "Easy to use",
                         "Configurable",
                         "Pretty"
-                ), new Preview("Damage Indicators", "See how much damage you do against your victim!", "https://github.com/n-tdi/Damage-Indicators"));
+                ), "https://github.com/n-tdi/Damage-Indicators");
     }
 }

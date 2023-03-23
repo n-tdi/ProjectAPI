@@ -16,6 +16,6 @@ public class MathAPI extends Project {
                         "ExpressJS",
                         "NodeJS",
                         "Easy to use and understand"
-                ), new Preview("Math API", "A RESTful API to parse mathematical equations.", "https://github.com/n-tdi/Math-Api"));
+                ), "https://github.com/n-tdi/Math-Api");
     }
 }

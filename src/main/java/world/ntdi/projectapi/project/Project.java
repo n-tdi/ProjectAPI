@@ -16,13 +16,13 @@ public class Project {
     private final List<String> features;
     private final Preview preview;
 
-    public Project(int id, String title, String description, List<SubSection> sections, List<String> features, Preview preview) {
+    public Project(int id, String title, String description, List<SubSection> sections, List<String> features, String link) {
         this.id = id;
         this.title = title;
         this.description = description;
         this.sections = sections;
         this.features = features;
-        this.preview = preview;
+        this.preview = new Preview(id, title, description, link);
 
         ProjectManager.put(id, this);
     }

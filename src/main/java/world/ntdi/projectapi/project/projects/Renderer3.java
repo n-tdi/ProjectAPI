@@ -17,7 +17,6 @@ public class Renderer3 extends Project {
                         "Pure Java",
                         "Object Orientated",
                         "JavaFX display"
-                ),
-                new Preview("Renderer3", "Renderer3 is a 3D renderer made it pure Java.", "https://github.com/n-tdi/Renderer3/tree/main/src/main/java/world/ntdi/renderer3/model"));
+                ), "https://github.com/n-tdi/Renderer3");
     }
 }

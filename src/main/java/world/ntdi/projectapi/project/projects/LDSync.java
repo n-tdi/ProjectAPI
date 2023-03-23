@@ -18,6 +18,6 @@ public class LDSync extends Project {
                         "Wiki and Documentation",
                         "Open Source",
                         "Ready to use out of the box"
-                ), new Preview("LDSync", "LDSync is an all-in-one minecraft plugin to sync Vault ranks to Discord Roles", "https://github.com/n-tdi/LDSync"));
+                ),"https://github.com/n-tdi/LDSync");
     }
 }

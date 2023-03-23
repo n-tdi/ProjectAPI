@@ -16,6 +16,6 @@ public class SkyblockSniperWebhook extends Project {
                         "Open Source",
                         "Out of the box ready to use",
                         "Ingame advantage"
-                ), new Preview("Skyblock Sniper Webhook", "A project to send Hypixel Skyblock AH snipes to a discord webhook", "https://github.com/n-tdi/SkyblockSniper-Discord"));
+                ), "https://github.com/n-tdi/SkyblockSniper-Discord");
     }
 }

@@ -18,6 +18,6 @@ public class SimpleMessaging extends Project {
                         "Drop-in replacement",
                         "Easy to use",
                         "Configurable"
-                ), new Preview("Simple Messaging", "A Simple messaging plugin that makes talking to friends easy.", "https://github.com/n-tdi/Simple-Messaging"));
+                ), "https://github.com/n-tdi/Simple-Messaging");
     }
 }
