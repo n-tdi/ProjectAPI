@@ -17,6 +17,7 @@ public class ProjectManager {
 
     static {
         new Planium();
+        new Postglam();
         new DaemonScripts();
         new Tia();
         new Ntreak();

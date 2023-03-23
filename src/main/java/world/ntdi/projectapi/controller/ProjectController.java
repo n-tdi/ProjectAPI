@@ -1,15 +1,15 @@
 package world.ntdi.projectapi.controller;
 
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import world.ntdi.projectapi.model.ListModel;
 import world.ntdi.projectapi.model.Preview;
 import world.ntdi.projectapi.project.Project;
 import world.ntdi.projectapi.project.ProjectManager;
 
+import java.util.List;
+
+@CrossOrigin(origins = "http://127.0.0.1:5173")
 @RestController
 @RequestMapping("/v1/")
 public class ProjectController {
@@ -27,7 +27,7 @@ public class ProjectController {
     }
 
     @GetMapping("/preview")
-    public ListModel<Preview> getAllPreviews() {
-        return new ListModel<>(ProjectManager.getAllPreviews());
+    public List<Preview> getAllPreviews() {
+        return ProjectManager.getAllPreviews();
     }
 }
