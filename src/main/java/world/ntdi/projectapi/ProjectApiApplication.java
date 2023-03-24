@@ -9,7 +9,6 @@ import java.util.*;
 
 @SpringBootApplication
 public class ProjectApiApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ProjectApiApplication.class, args);
     }
