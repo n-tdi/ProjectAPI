@@ -16,6 +16,7 @@ public class ProjectManager {
     private LinkedHashMap<Integer, Project> projects = new LinkedHashMap<>();
 
     static {
+        new ProblemGen();
         new Planium();
         new Postglam();
         new DaemonScripts();
